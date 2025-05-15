@@ -181,241 +181,178 @@
 
   <!--==================== MAIN ====================-->
   <main class="main">
-    <!--==================== HOME ====================-->
-    <section class="home section" id="home">
-      <div class="home__container container grid">
-        <div class="home__content grid">
-          <div class="home__social">
-            <!-- linkedin -->
-            <a href="https://www.linkedin.com/in/anjali-singh-159932220" target="_blank" class="home__social-icon"
-              title="Linkedin">
-              <i class="uil uil-linkedin-alt"></i>
-            </a>
+<!--==================== HOME ====================-->
+<section class="home section" id="home">
+  <div class="home__container container grid">
+    <div class="home__content grid">
+      <div class="home__social">
+        <!-- (unchanged social links) -->
+      </div>
+      <div class="home__data">
+        <span style="font-size: 16px">Hi, my name is</span>
+        <h1 class="home__title">Anjali Singh</h1>
+        <br>
+        <p class="home__description">
+          Automation Engineer and Data Specialist with extensive experience in web scraping, ETL pipelines, and SQL-driven data management. Skilled in Selenium for automating workflows and enhancing data acquisition, with a strong track record of improving accuracy and efficiency. Proven ability to deliver scalable automation and data engineering solutions, supporting analytics and business value.
+        </p>
+        <a href="#contact" class="button button--flex home__button" title="Contact me">
+          Contact Me<i class="uil uil-message button__icon"></i>
+        </a>
+      </div>
+    </div>
+    <div class="home__scroll">
+      <a href="#about" class="home__scroll-button button--flex">
+        <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+        <span class="home__scroll-name">Scroll Down</span>
+        <i class="uil uil-arrow-down home__scroll-arrow"></i>
+      </a>
+    </div>
+  </div>
+</section>
 
-            <!-- github -->
-            <a href="https://github.com/Anjali0033" target="_blank" class="home__social-icon" title="GitHub">
-              <i class="uil uil-github-alt"></i>
-            </a>
+<!--==================== ABOUT ====================-->
+<section class="about section" id="about">
+  <h2 class="section__title">About profession</h2>
+  <span class="section__subtitle">My introduction</span>
+  <div class="about__container container grid">
+    <img src="packages/images/Anjali.jpeg" alt="Anjali's image" class="about__img" />
+    <div class="about__data">
+      <br><br>
+      <p class="about__description" style="margin-top:-50px">
+        I bring a strong foundation in automation, scripting, and web scraping, with hands-on experience using tools like Selenium, Beautiful Soup, and Python frameworks. My experience spans multiple industries and includes building real-time APIs, developing robust ETL pipelines, managing cloud infrastructure with AWS and Snowflake, and solving CAPTCHAs with customized solutions. I take pride in optimizing workflows to save manual hours, supporting informed business decisions.
+      </p>
+      <div class="about__buttons">
+        <a download="Anjali-Singh-Resume" class="button button--flex" title="click to download" onclick="window.open('https://drive.google.com/file/d/1vn4bvid_Rc4TrxTalVcgbeO7h64gV40i/view?usp=share_link','_blank')">
+          Resume<i class="uil uil-download-alt button__icon"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
 
-            <!-- Instagram -->
-            <a href="https://www.instagram.com/anjali._.003/" target="_blank" class="home__social-icon"
-              title="Instagram">
-              <i class="uil uil-instagram"></i>
-            </a>
-
-            <!-- Twitter -->
-            <a href="https://twitter.com/Anjali47654361" target="_blank" class="home__social-icon" title="Twitter">
-              <i class="uil uil-twitter"></i>
-            </a>
+<!--==================== QUALIFICATION ====================-->
+<section class="qualification__section qualification section" id="qualification">
+  <h2 class="section__title">Experience & Qualification</h2>
+  <span class="section__subtitle">My journey</span>
+  <div class="qualification__container container">
+    <div class="qualification__tabs">
+      <div class="qualification__button button--flex qualification__active" data-target="#work">
+        <i class="uil uil-briefcase-alt qualification__icon"></i>
+        Work
+      </div>
+      <div class="qualification__button button--flex" data-target="#education">
+        <i class="uil uil-graduation-cap qualification__icon"></i>
+        Education
+      </div>
+    </div>
+    <div class="qualification__sections">
+      <div class="qualification__content qualification__active" data-content id="work">
+        <div class="qualification__data">
+          <div>
+            <h3 class="qualification__title">Web Scrapper (Python) - Assistant Manager</h3>
+            <span class="qualification__subtitle">RPSG Media & Publications Business</span>
+            <div class="qualification__calendar">
+              <i class="uil uil-calendar-alt"></i>
+              May 2025 - Present
+            </div>
           </div>
-
-          <div class="home__data">
-            <span style="font-size: 16px">Hi, my name is</span>
-            <h1 class="home__title">Anjali Singh </h1>
-            <br>
-            <!-- <h3 class="home__subtitle">I build </h3> -->
-            <p class="home__description">
-              I am a highly skilled professional with extensive experience in web scraping and data analysis.
-              I possess expertise in utilizing advanced scraping tools, including Content-Grabber, as well as
-              Python-based scraping frameworks such as Requests, Beautiful Soup, and Selenium. My proficiency
-              extends to employing sophisticated data extraction techniques, such as Regex and XPath, to
-              extract valuable insights. With a proven track record in extracting and analyzing data, I am
-              well-equipped to deliver precise and actionable results for complex data projects.
-            </p>
-            <a href="#contact" class="button button--flex home__button" title="Contact me">
-              Contact Me<i class="uil uil-message button__icon"></i>
-            </a>
+          <div>
+            <span class="qualification__rounder"></span>
+            <span class="qualification__line"></span>
           </div>
         </div>
-
-        <div class="home__scroll">
-          <a href="#about" class="home__scroll-button button--flex">
-            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
-            <span class="home__scroll-name">Scroll Down</span>
-            <i class="uil uil-arrow-down home__scroll-arrow"></i>
-          </a>
+        <div class="qualification__data">
+          <div></div>
+          <div>
+            <span class="qualification__rounder"></span>
+            <span class="qualification__line"></span>
+          </div>
+          <div>
+            <h3 class="qualification__title">Associate Software Engineer</h3>
+            <span class="qualification__subtitle">Indus Valley Partner</span>
+            <div class="qualification__calendar">
+              <i class="uil uil-calendar-alt"></i>
+              Oct 2024 - Apr 2025
+            </div>
+          </div>
+        </div>
+        <div class="qualification__data">
+          <div>
+            <h3 class="qualification__title">Python Developer</h3>
+            <span class="qualification__subtitle">Info-X Software Technology Pvt. Ltd</span>
+            <div class="qualification__calendar">
+              <i class="uil uil-calendar-alt"></i>
+              Aug 2023 - Sep 2024
+            </div>
+          </div>
+          <div>
+            <span class="qualification__rounder"></span>
+            <span class="qualification__line"></span>
+          </div>
+        </div>
+        <div class="qualification__data">
+          <div></div>
+          <div>
+            <span class="qualification__rounder"></span>
+            <span class="qualification__line"></span>
+          </div>
+          <div>
+            <h3 class="qualification__title">Development Consultant</h3>
+            <span class="qualification__subtitle">Sequentum India</span>
+            <div class="qualification__calendar">
+              <i class="uil uil-calendar-alt"></i>
+              Nov 2021 - Jun 2023
+            </div>
+          </div>
+        </div>
+        <div class="qualification__data">
+          <div>
+            <h3 class="qualification__title">Web Scrapper</h3>
+            <span class="qualification__subtitle">Nixis Technologies</span>
+            <div class="qualification__calendar">
+              <i class="uil uil-calendar-alt"></i>
+              Jul 2020 - Oct 2021
+            </div>
+          </div>
+          <div>
+            <span class="qualification__rounder"></span>
+            <span class="qualification__line"></span>
+          </div>
         </div>
       </div>
-    </section>
-
-    <!--==================== ABOUT ====================-->
-    <section class="about section" id="about">
-      <h2 class="section__title">About profession</h2>
-      <span class="section__subtitle">My introduction</span>
-
-      <div class="about__container container grid">
-        <img src="packages/images/Anjali.jpeg" alt="Anjali's image" class="about__img" />
-        <div class="about__data">
-          <!-- <p class="about__description">
-            
-          </p>-->
-          <br>
-          <br>
-          <p class="about__description" style="margin-top:-50px">
-            I have also worked with a wide range of software tools, including Content Grabber, and databases such as
-            AWS, Snowflake, SQL, and Excel. In addition to my proficiency in web scraping and data analysis, I possess a
-            strong ability to develop logical solutions and effectively handle blocking issues that may arise during
-            problem-solving. My adaptable problem-solving skills enable me to tackle complex challenges and deliver
-            efficient and effective solutions.
-          </p>
-          <div class="about__buttons">
-            <a download="Anjali-Singh-Resume" class="button button--flex" title="click to download"
-              onclick="window.open('https://drive.google.com/file/d/1vn4bvid_Rc4TrxTalVcgbeO7h64gV40i/view?usp=share_link','_blank')">
-              Resume
-              <i class="uil uil-download-alt button__icon"></i></a>
+      <div class="qualification__content" data-content id="education">
+        <div class="qualification__data">
+          <div>
+            <h3 class="qualification__title">MCA</h3>
+            <span class="qualification__subtitle">Manipal University</span>
+            <div class="qualification__calendar">
+              <i class="uil uil-calendar-alt"></i>
+              Aug 2024 - Jun 2026
+            </div>
+          </div>
+          <div>
+            <span class="qualification__rounder"></span>
+            <span class="qualification__line"></span>
           </div>
         </div>
-      </div>
-    </section>
-
-    <!--==================== SKILLS ====================-->
-    <section class="skills section" id="skills">
-      <h2 class="section__title">Skills</h2>
-      <span class="section__subtitle">My technologies</span>
-
-      <div class="skills__container container grid">
-        <div>
-          <div class="skills__content skills__open">
-            <div class="skills__list grid">
-              <div class="tech__row">
-                <div class="skill__box">
-                  <div>
-                    <iconify-icon icon="vscode-icons:file-type-cpp3" height="40"></iconify-icon>
-                    <h3 class="services__title">C++<br /></h3>
-                  </div>
-                </div>
-                <div class="skill__box">
-                  <div>
-                    <iconify-icon icon="logos:python" height="40" width="35"></iconify-icon>
-                    <h3 class="services__title">Python<br /></h3>
-                  </div>
-                </div>
-                <div class="skill__box">
-                  <div>
-                    <iconify-icon style="color: #65b743" icon="tabler:brand-c-sharp" height="40"
-                      width="35"></iconify-icon>
-                    <h3 class="services__title">C# (C-Sharp)<br /></h3>
-                  </div>
-                </div>
-                <div class="skill__box">
-                  <div>
-                    <img src="packages/images/ContentGrabber.png" style="transform: scale(3);">
-                    <!-- <iconify-icon icon="skill-icons:c++" height="40" width="35"></iconify-icon> -->
-
-                    <h3 class="services__title"> <br> Content Grabber<br /></h3>
-                  </div>
-                </div>
-                <div class="skill__box">
-                  <div>
-                    <iconify-icon icon="simple-icons:pandas" height="40" width="35"></iconify-icon>
-                    <h3 class="services__title">pandas<br /></h3>
-                  </div>
-                </div>
-                <div class="skill__box">
-                  <div>
-                    <iconify-icon icon="arcticons:regexcrossword" height="40" width="35"></iconify-icon>
-                    <h3 class="services__title">Regex and Xpath<br /></h3>
-                  </div>
-                </div>
-                <div class="skill__box">
-                  <div>
-                    <iconify-icon icon="material-symbols:soup-kitchen-rounded" height="40" width="35"></iconify-icon>
-                    <h3 class="services__title">Beautiful Soup<br /></h3>
-                  </div>
-                </div>
-                <div class="skill__box">
-                  <div>
-                    <iconify-icon icon="logos:selenium" height="40" width="35"></iconify-icon>
-                    <h3 class="services__title">Selenium<br /></h3>
-                  </div>
-                </div>
-                <div class="skill__box">
-                  <div>
-                    <iconify-icon icon="noto-v1:snowflake" height="40" width="35"></iconify-icon>
-                    <h3 class="services__title">Snowflake<br /></h3>
-                  </div>
-                </div>
-                <div class="skill__box">
-                  <div>
-                    <iconify-icon icon="vscode-icons:file-type-excel" height="40" width="40"></iconify-icon>
-                    <h3 class="services__title">Excel<br /></h3>
-                  </div>
-                </div>
-                <div class="skill__box">
-                  <div>
-                    <iconify-icon icon="logos:postgresql" height="40" width="40"></iconify-icon>
-                    <h3 class="services__title">postgreSQL<br /></h3>
-                  </div>
-                </div>
-                <div class="skill__box">
-                  <div>
-                    <iconify-icon icon="logos:mysql-icon" height="40" width="45">
-                      ></iconify-icon>
-                    <h3 class="services__title">My SQL<br /></h3>
-                  </div>
-                </div>
-                <div class="skill__box">
-                  <div>
-                    <iconify-icon icon="logos:aws" height="40" width="45">
-                      ></iconify-icon>
-                    <h3 class="services__title">AWS<br /></h3>
-                  </div>
-                </div>
-                <div class="skill__box">
-                  <div>
-                    <iconify-icon icon="devicon:jira-wordmark" height="40" width="45">
-                      ></iconify-icon>
-                    <h3 class="services__title">Jira<br /></h3>
-                  </div>
-                </div>
-                <div class="skill__box">
-                  <div>
-                    <iconify-icon icon="arcticons:wpsoffice" height="40" width="45">
-                      ></iconify-icon>
-                    <h3 class="services__title">WPS<br /></h3>
-                  </div>
-                </div>
-                <div class="skill__box">
-                  <div>
-                    <iconify-icon icon="logos:google-360suite" height="40" width="45">
-                      ></iconify-icon>
-                    <h3 class="services__title">Google - 360suite<br /></h3>
-                  </div>
-                </div>
-                <div class="skill__box">
-                  <div>
-                    <iconify-icon icon="vscode-icons:file-type-html" height="40"></iconify-icon>
-                    <h3 class="services__title">HTML & CSS<br /></h3>
-                  </div>
-                </div>
-                <!-- tools -->
-                <div class="skill__box">
-                  <div>
-                    <iconify-icon style="color: #e84d31" icon="fa6-brands:git-alt" height="40"
-                      width="35"></iconify-icon>
-                    <h3 class="services__title">Git<br /></h3>
-                  </div>
-                </div>
-                <div class="skill__box">
-                  <div>
-                    <iconify-icon style="color: #1f1e1e" icon="ant-design:github-filled" height="40"
-                      width="35"></iconify-icon>
-                    <h3 class="services__title">GitHub<br /></h3>
-                  </div>
-                </div>
-                <div class="skill__box">
-                  <div>
-                    <iconify-icon icon="vscode-icons:file-type-vscode" height="40" width="35"></iconify-icon>
-                    <h3 class="services__title">VsCode<br /></h3>
-                  </div>
-                </div>
-              </div>
+        <div class="qualification__data">
+          <div></div>
+          <div>
+            <span class="qualification__rounder"></span>
+            <span class="qualification__line"></span>
+          </div>
+          <div>
+            <h3 class="qualification__title">BCA</h3>
+            <span class="qualification__subtitle">IGNOU</span>
+            <div class="qualification__calendar">
+              <i class="uil uil-calendar-alt"></i>
+              Jan 2020 - Jan 2023
             </div>
           </div>
         </div>
       </div>
-    </section>
-
+    </div>
+  </div>
+</section>
     <!--==================== Projects ====================-->
     <section class="services section" id="projects">
       <section class="skills section" id="skills">
@@ -808,7 +745,7 @@
         </div>
 
         <div class="qualification__sections">
-          <!--==================== QUALIFICATIONS ====================-->
+<!--           <!--==================== QUALIFICATIONS ====================-->
           <div class="qualification__content " data-content id="education">
             <!--==================== QUALIFICATION 1 ====================-->
             <div class="qualification__data">
@@ -845,7 +782,7 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
 
           <!--==================== WORK AND EXPERIENCES (DEFAULT ACTIVE) ====================-->
           <div class="qualification__content qualification__active" data-content id="work">
